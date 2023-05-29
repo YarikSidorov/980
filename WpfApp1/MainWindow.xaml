@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="307,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="307,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Авторизация" HorizontalAlignment="Left" Margin="329,194,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="307,38,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="307,111,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.434,0.622"/>
     </Grid>
 </Window>
